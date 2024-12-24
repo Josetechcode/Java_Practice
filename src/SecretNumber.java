@@ -39,6 +39,5 @@ public class SecretNumber {
 
             } while (reply == 'Y' || reply == 'y');
         System.out.print("Thank you for playing. Have a good one!");
-
     }
 }
