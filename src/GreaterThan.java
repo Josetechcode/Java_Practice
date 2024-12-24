@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Variable Scope, page 121
+
 public class GreaterThan {
     public static void main (String [] args) {
         Scanner keyboard = new Scanner(System.in);
