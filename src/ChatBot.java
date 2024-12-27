@@ -9,7 +9,6 @@ public class ChatBot {
         System.out.println("Hello, what's your name?:");
         String name = keyboard.nextLine();
         Greeting (name);
-                
         do {
             // DISPLAYING MENU AND PROMPTING THE USER WHAT THEY WANT TO DO
             System.out.println("Choose the option that better fits your request:\n1. Conver USD to COP.\n2. Convert COP to USD.");
@@ -39,11 +38,9 @@ public class ChatBot {
         } while (Reply);
         System.out.println("The program is OFF. Take care, bye, bye.");
     }
-
     static void Greeting (String nameIn) {
         System.out.println("Hello, "+ nameIn +". I hope your doing well.");
     }
-
     static double ShowMenu (int choiceIn, double valueIn) {
         if (choiceIn == 1) {
             return valueIn * 4392.5;
@@ -51,7 +48,6 @@ public class ChatBot {
             return valueIn / 4392.5;
         } 
     }
-
     static boolean OnOff (int replyIn) {
         if (replyIn == 1) {
             return true;
