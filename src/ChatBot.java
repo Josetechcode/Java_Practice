@@ -48,7 +48,7 @@ public class ChatBot {
         if (choiceIn == 1) {
             return valueIn * 4392.5;
         } else {
-            return (valueIn / 4392.5);
+            return valueIn / 4392.5;
         } 
     }
 
