@@ -1,15 +1,12 @@
 import java.util.Scanner;
-import java.util.Random;
 
 public class Methods {
     public static void main (String [] args) {
         Scanner keyboard = new Scanner(System.in);
-        Random random = new Random();
         char check;
 
         do {
             int choice;
-            float Temp;            
 
             System.out.println("What do you want to do?\n1. ºC to ºF.\n2. ºF to ºC.");
             choice = keyboard.nextInt();
