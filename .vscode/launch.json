@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ChatBot",
+            "request": "launch",
+            "mainClass": "ChatBot",
+            "projectName": "Practice_9e78d0f7"
+        },
+        {
+            "type": "java",
+            "name": "GreaterThan",
+            "request": "launch",
+            "mainClass": "GreaterThan",
+            "projectName": "Practice_9e78d0f7"
+        },
+        {
+            "type": "java",
+            "name": "Methods",
+            "request": "launch",
+            "mainClass": "Methods",
+            "projectName": "Practice_9e78d0f7"
+        },
+        {
+            "type": "java",
+            "name": "SecretNumber",
+            "request": "launch",
+            "mainClass": "SecretNumber",
+            "projectName": "Practice_9e78d0f7"
+        }
+    ]
+}
